@@ -1,1 +1,9 @@
 
+{
+  "version": "1.9.10",
+  "platform": "java",
+  "args": "",
+  "noneMarkers": true,
+  "theme": "idea",
+  "code": "import kotlin.math.pow\n\nconst val PI = 3.1416F\nconst val PHI = 1.618F\n\nfun main() {\n    val radius = 4f\n    val area = circleArea(radius)\n    println(\"El área del círculo es $area\")\n    \n    println(getPi())\n    printPhi()\n}\n\nfun circleArea(radius: Float): Float {\n    return PI * radius.pow(2)\n}\n\nfun getPi(): Float {\n    return PI\n}\n\nfun printPhi() {\n    println(\"El número áureo vale $PHI\")\n}"
+}
