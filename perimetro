@@ -1,0 +1,8 @@
+{
+  "version": "1.9.10",
+  "platform": "java",
+  "args": "",
+  "noneMarkers": true,
+  "theme": "idea",
+  "code": "import kotlin.math.pow\n\nconst val numberPI = 3.1416\nconst val number1 = 1\nconst val number2 = 2.23\n\nfun main() {\n    val perimetro = numberPI * number2\n    print(\"El perimetro del circulo es ${perimetro}\")\n\n}\n\n"
+}
